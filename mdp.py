@@ -6,6 +6,7 @@ Created on Tue Jun 25 12:01:27 2024
 """
 pip install streamlit-option-menu
 
+
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
