@@ -7,7 +7,7 @@ Created on Tue Jun 25 12:01:27 2024
 
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 #loading the saved modals
 
