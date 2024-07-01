@@ -4,6 +4,7 @@ Created on Tue Jun 25 12:01:27 2024
 
 @author: asus
 """
+pip install streamlit-option-menu
 
 import pickle
 import streamlit as st
