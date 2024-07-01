@@ -4,7 +4,6 @@ Created on Tue Jun 25 12:01:27 2024
 
 @author: asus
 """
-pip install --upgrade pip
 
 
 import pickle
