@@ -4,7 +4,7 @@ Created on Tue Jun 25 12:01:27 2024
 
 @author: asus
 """
-pipenv install streamlit-option-menu
+pip install streamlit-option-menu
 
 
 import pickle
