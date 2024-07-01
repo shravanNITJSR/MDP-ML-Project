@@ -11,11 +11,11 @@ import streamlit as st
 
 #loading the saved modals
 
-diabetes_model = pickle.load(open('C:/Users/asus/Desktop/MDPS/Saved Modals/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/asus/Desktop/MDPS/Saved Modals/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-Breast_cancer_model = pickle.load(open('C:/Users/asus/Desktop/MDPS/Saved Modals/Breast_Cancer_model.sav','rb'))
+Breast_cancer_model = pickle.load(open('Breast_Cancer_model.sav','rb'))
 
 
 # sidebar for navigation
