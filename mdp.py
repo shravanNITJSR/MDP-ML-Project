@@ -13,12 +13,12 @@ from streamlit_option_menu import option_menu
 
 #loading the saved modals
 
-heart_disease_model = pickle.load(open('C:/Users/asus/Desktop/mdps/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-diabetes_model = pickle.load(open('C:/Users/asus/Desktop/mdps/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
 
-Breast_cancer_model = pickle.load(open('C:/Users/asus/Desktop/mdps/Breast_Cancer_model.sav','rb'))
+Breast_cancer_model = pickle.load(open('Breast_Cancer_model.sav','rb'))
 
 
 
