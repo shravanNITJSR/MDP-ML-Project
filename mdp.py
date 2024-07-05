@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 """
 Created on Tue Jun 25 12:01:27 2024
 
@@ -113,19 +113,19 @@ if selected == 'Heart Disease Prediction':
         chol = st.text_input('Serum Cholestoral in mg/dl [<200]')
 
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar [0/1]')
+        fbs = st.text_input('Fasting Blood Sugar [0=False , 1=Ture]')
 
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results [0/1]')
+        restecg = st.text_input('Resting Electrocardiographic results [0=False , 1=Ture]')
 
     with col2:
         thalach = st.text_input('Maximum Heart Rate achieved [60-100]')
 
     with col3:
-        exang = st.text_input('Exercise Induced Angina [0/1]')
+        exang = st.text_input('Exercise Induced Angina [0=False , 1=Ture]')
 
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise [0-15')
+        oldpeak = st.text_input('ST depression induced by exercise [0-5]')
 
     with col2:
         slope = st.text_input('Slope of the peak exercise ST segment [0-2]')
