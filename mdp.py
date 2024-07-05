@@ -83,9 +83,9 @@ if selected == 'Diabetes Prediction':
         diab_prediction = diabetes_model.predict([user_input])
 
         if diab_prediction[0] == 1:
-            diab_diagnosis = 'THE PERSON IS SUFFERING FROM  DIABETICS'
+            diab_diagnosis = 'THE PERSON IS SUFFERING FROM  DIABETES'
         else:
-            diab_diagnosis = 'THE PERSON IS NOT SUFFERING FROM  DIABETICS'
+            diab_diagnosis = 'THE PERSON IS NOT SUFFERING FROM  DIABETES'
 
     st.success(diab_diagnosis)
 
